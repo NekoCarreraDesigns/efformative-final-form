@@ -1,0 +1,23 @@
+{
+    "name": "eformative",
+    "version": "1.0.0",
+    "description": "eformative site package for deployment",
+    "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run client\"",
+      "server": "cd server && node server.js",
+      "client": "cd client && npm run start",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "heroku-postBuild": "cd server && npm install && npm start"
+    },
+    "keywords": ["React", "Node", "MongoDB", "Express"],
+    "author": "Nicholas Maas",
+    "license": "GNU",
+    "dependencies": {
+      "@babel/plugin-proposal-private-property-in-object": "@babel/plugin-proposal-private-property-in-object",
+      "concurrently": "^8.2.1"
+    },
+    "engines": {
+      "node": "18.17.1"
+    }
+  }
+  
