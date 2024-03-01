@@ -107,7 +107,7 @@ const Market = () => {
         </div>
       ) : displayedItems.length > 0 ? (
         <div className='card-container'>
-          {displayedItems.map((item, index) => (
+          {displayedItems?.map((item, index) => (
             <Card elevation={6} className='item-card' key={index}>
               <CardHeader
                 title={item.product}

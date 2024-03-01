@@ -8,7 +8,7 @@ html, .body {
     margin: 0;
     padding-top: 8vw;
     padding-bottom: 10vw;
-    background: linear-gradient(345deg, rgba(214, 238, 2, 0.616), rgba(2, 97, 160, 0.959)), url('../../../public/assets/hero-bg.jpg');
+    background: linear-gradient(345deg, rgba(214, 238, 2, 0.616), rgba(2, 97, 160, 0.959)), url('/assets/hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
