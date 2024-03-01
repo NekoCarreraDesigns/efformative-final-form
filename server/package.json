@@ -16,7 +16,7 @@
     "API"
   ],
   "author": "Nicholas Maas",
-  "license": "ISC",
+  "license": "GNU",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
