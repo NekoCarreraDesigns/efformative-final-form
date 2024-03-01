@@ -16,5 +16,8 @@
     "API"
   ],
   "author": "Nicholas Maas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1"
+  }
 }
