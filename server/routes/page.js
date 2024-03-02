@@ -19,7 +19,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // user sign up that redirects to the seller page
-pageRoutes.route("/seller/sign-up").post(async (req, res) => {
+pageRoutes.route("/api/seller/sign-up").post(async (req, res) => {
   try {
   let db_connect = db.getDb();
   const { fullName, username, email, password } = req.body;
