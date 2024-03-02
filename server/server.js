@@ -10,7 +10,7 @@ const passport = require('passport');
 // configuration for dotenv
 require("dotenv").config({ path: "./config.env" });
 // declaring the port to be used for the server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5174;
 // cors setup for backend to frontend communication
 // const allowedOrigin = ["https://eformative.com"];
 
