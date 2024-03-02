@@ -15,7 +15,7 @@ const Signup = () => {
   const userPostSignUp = (event) => {
     event.preventDefault()
     try {
-      const response = axios.post("/seller/sign-up", {
+      const response = axios.post("/api/seller/sign-up", {
         fullName: fullName,
         username: username,
         email: email,
