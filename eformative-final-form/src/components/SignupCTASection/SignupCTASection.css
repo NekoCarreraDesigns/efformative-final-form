@@ -12,7 +12,7 @@
       
     .signup-cta-section {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.45) 50%, rgba(255, 255, 255, 1)), 
-    url('../../../public/assets/signup-bg.png');
+    url('/assets/signup-bg.png');
     background-repeat: no-repeat;
     background-size: 1200px;
     background-position: left bottom;
